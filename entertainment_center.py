@@ -1,5 +1,5 @@
 import media
-import fresh_tomatoes
+import movie_trailer
 
 # Defining movies
 ride_along_2 = media.Movie("Ride Along 2",
@@ -43,4 +43,4 @@ movies = [ride_along_2, avatar, the_nightmare_before_christmas,
           ]
 
 # Displays movies added to the list above to open_movies_page
-fresh_tomatoes.open_movies_page(movies)
+movie_trailer.open_movies_page(movies)
